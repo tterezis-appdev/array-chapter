@@ -6,8 +6,8 @@
 # 9.0
 # 
 
-p "Enter at least 2 numbers, separated by spaces:"
-
+puts "Enter at least 2 numbers, separated by spaces:"
 user_string = gets.chomp
-
 user_numbers = user_string.split
+n1=user_numbers.at(-2).to_f * user_numbers.at(-2).to_f
+p n1
